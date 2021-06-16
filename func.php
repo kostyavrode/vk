@@ -1,6 +1,0 @@
-<?php
-
-request_params = [
-
-  ];
-?>
