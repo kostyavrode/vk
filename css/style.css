@@ -1,0 +1,34 @@
+.card {
+  width: 25%;
+  margin left: 25%;
+}
+.bt1{
+  position: absolute;
+  top:20%;
+  left:20%;
+  -webkit-transform: translate (-50%, -50%);
+  -moz-transform: translate (-50%, -50%);
+  -ms-transform: translate (-50%, -50%);
+  -o-transform: translate (-50%, -50%);
+  transform: : translate (-50%, -50%);
+}
+.but1{
+  border: 3px solid #218294;
+  font-size: 30px;
+  color:#218294;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 250px;
+  height: 60px;
+  display: block;
+}
+ul li b {
+  border: 0;
+  padding: 5px 15px;
+  color:white;
+  font-size: 13px;
+  background: #db5757;
+  position: relative;
+  left: 130px;
+  border-radius: 5px;
+}
