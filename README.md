@@ -7,25 +7,25 @@
 	<meta name="viewport" content="width=device-width, initial scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type:"css" href="style.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"> // ссылка на готовый удобный и рабочий сss стиль
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"> 
 	<title>Задание для ВК</title>
 </head
 <body>
-<?php require "blocks/sod.php" ?> // подключаем файл сайта
+<?php require "blocks/sod.php" ?> 
 <?php
    $a = array('МЧС', 'J06 | B8', 'Команда ВКонтакте', 'RDS GP', 'a', 'HistoryPorn', 'dailysh',
-	  'DANK MEMES AYY LMAO', 'Grizzly Knows No Remorse | GKNR','ITc | сообщество программистов');?> // задаем массив данных, чтобы вывод названий групп был удобным
+	  'DANK MEMES AYY LMAO', 'Grizzly Knows No Remorse | GKNR','ITc | сообщество программистов');?> 
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
       <h1 class="display-4 fw-normal">Список рекомендованных мне групп, информацию о которых можно будет узнать.</h1>
 <div class="d-flex flex-wrap">
-			<?php for ($i=0; $i<=9; $i++):?> // массив данных от 0 до 9, помогающее выводу картинок, номеров групп, ссылок на другие файлы сайта
+			<?php for ($i=0; $i<=9; $i++):?> 
 	<div class="card mb-4 rounded-3 shadow-sm">
 			 <div class="card-header py-3">
-				 <h4 class="my-0 fw-normal"><?php echo $a[$i];?></h4> // опять используем массив для удобного вывода
+				 <h4 class="my-0 fw-normal"><?php echo $a[$i];?></h4> 
 			 </div>
 			 <div class="card-body">
-			 <img src="img/<?php echo ($i+1) ?>.jpg" class="img-thumbnail"> // опять используем массив для удобного вывода
-				 <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">Группа №<?php echo ($i+1) ?></small></h1> // опять используем массив для удобного вывода
+			 <img src="img/<?php echo ($i+1) ?>.jpg" class="img-thumbnail"> 
+				 <h1 class="card-title pricing-card-title"><small class="text-muted fw-light">Группа №<?php echo ($i+1) ?></small></h1> 
 				 <ul class="list-unstyled mt-3 mb-4">
 					
 				 </ul>
